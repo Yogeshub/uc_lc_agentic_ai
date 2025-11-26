@@ -1,0 +1,61 @@
+# ----------------------
+# Python cache / bytecode
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ----------------------
+# Virtual environments
+# ----------------------
+.venv/
+venv/
+env/
+ENV/
+
+# ----------------------
+# Environment variables
+# ----------------------
+.env
+.env.*
+*.env
+
+# ----------------------
+# Distribution / build files
+# ----------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ----------------------
+# IDE / Editor settings
+# ----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------
+# Jupyter Notebook
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+logs/
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Render deployment specific
+# (Render creates its own virtual env)
+# ----------------------
+.python-version
